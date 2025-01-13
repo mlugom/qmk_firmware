@@ -46,13 +46,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [2] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_TAB,       KC_EXLM,   KC_AT, KC_LPRN, KC_RPRN, KC_PERC,                      KC_TILD, KC_CIRC, KC_HASH,  KC_EQL, XXXXXXX, KC_BSPC,
+       KC_TAB,       KC_EXLM,   KC_AT, KC_LPRN, KC_RPRN, KC_PERC,                      KC_TILD, KC_CIRC, KC_HASH,  KC_EQL, KC_SLSH, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,       KC_QUOT, KC_DQUO, KC_LBRC, KC_RBRC, XXXXXXX,                      XXXXXXX,  KC_DLR,  KC_GRV, KC_PIPE, KC_AMPR, KC_BSLS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, RALT(KC_SLSH), XXXXXXX, KC_LCBR, KC_RCBR, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI,   MO(3),  KC_SPC,     KC_SPC, _______, KC_RALT
+                                          KC_LALT,   MO(3),  KC_SPC,     KC_SPC, _______, KC_RALT
                                       //`--------------------------'  `--------------------------'
   ),
 

@@ -40,29 +40,29 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, KC_BRID, KC_BRIU, KC_VOLD, XXXXXXX,                      KC_VOLU, KC_MPRV, KC_MPLY, KC_MNXT, KC_MUTE, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI, _______,  KC_SPC,     KC_SPC,   MO(3), KC_RALT
+                                          KC_LGUI, _______,  KC_SPC,     KC_ENT,   MO(4), KC_RALT
                                       //`--------------------------'  `--------------------------'
   ),
 
     [2] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_TAB,       KC_EXLM,   KC_AT, KC_LPRN, KC_RPRN, KC_PERC,                      KC_TILD, KC_CIRC, KC_HASH,  KC_EQL, KC_SLSH, KC_BSPC,
+       KC_TAB,       KC_EXLM,   KC_AT, KC_LPRN, KC_RPRN, KC_PERC,                      KC_TILD, KC_CIRC, KC_HASH,  KC_EQL, KC_UNDS, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL,       KC_QUOT, KC_DQUO, KC_LBRC, KC_RBRC, XXXXXXX,                      XXXXXXX,  KC_DLR,  KC_GRV, KC_PIPE, KC_AMPR, KC_BSLS,
+      KC_CAPS,       KC_QUOT, KC_DQUO, KC_LBRC, KC_RBRC, XXXXXXX,                      XXXXXXX,  KC_DLR,  KC_GRV, KC_PIPE, KC_AMPR, KC_BSLS,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, RALT(KC_SLSH), XXXXXXX, KC_LCBR, KC_RCBR, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      KC_LSFT, RALT(KC_SLSH), XXXXXXX, KC_LCBR, KC_RCBR, XXXXXXX,                      XXXXXXX, XXXXXXX, KC_MINS, KC_PPLS, KC_UNDS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LALT,   MO(3),  KC_SPC,     KC_SPC, _______, KC_RALT
+                                          KC_LALT,   MO(4),  KC_SPC,     KC_SPC, _______, KC_RALT
                                       //`--------------------------'  `--------------------------'
   ),
 
     [3] = LAYOUT_split_3x6_3(
     //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_PAST,    KC_1,    KC_2,    KC_3, KC_UNDS, KC_BSPC,
+        XXXXXXX, XXXXXXX,   KC_F1,   KC_F2,   KC_F3,  KC_F10,                      KC_PAST,    KC_1,    KC_2,    KC_3, KC_SLSH, KC_BSPC,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      KC_PPLS,    KC_4,    KC_5,    KC_6, KC_MINS, XXXXXXX,
+        KC_LCTL, XXXXXXX,   KC_F4,   KC_F5,   KC_F6,  KC_F11,                      KC_PPLS,    KC_4,    KC_5,    KC_6, KC_MINS, XXXXXXX,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX,    KC_7,    KC_8,    KC_9,    KC_0, XXXXXXX,
+        KC_LSFT, XXXXXXX,   KC_F7,   KC_F8,   KC_F9,  KC_F12,                      XXXXXXX,    KC_7,    KC_8,    KC_9,    KC_0, XXXXXXX,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                             KC_LGUI, _______,  KC_SPC,     KC_SPC, _______, KC_RALT
                                         //`--------------------------'  `--------------------------'

@@ -46,19 +46,28 @@ static void oled_render_layer_state(void) {
     oled_write_P(PSTR("Layer: "), false);
     switch (get_highest_layer(layer_state)) {
         case 0:
-            oled_write_ln_P(PSTR("Default"), false);
+            oled_write_ln_P(PSTR("Default Win"), false);
             break;
         case 1:
-            oled_write_ln_P(PSTR("Lower"), false);
+            oled_write_ln_P(PSTR("Lower Win"), false);
             break;
         case 2:
-            oled_write_ln_P(PSTR("Raise"), false);
+            oled_write_ln_P(PSTR("Raise Win"), false);
             break;
         case 3:
             oled_write_ln_P(PSTR("Numpad"), false);
             break;
         case 4:
             oled_write_ln_P(PSTR("Adjust"), false);
+            break;
+        case 5:
+            oled_write_ln_P(PSTR("Default macOS"), false);
+            break;
+        case 6:
+            oled_write_ln_P(PSTR("Lower macOS"), false);
+            break;
+        case 7:
+            oled_write_ln_P(PSTR("Raise macOS"), false);
             break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);

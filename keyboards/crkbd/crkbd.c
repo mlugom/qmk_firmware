@@ -60,18 +60,6 @@ static void oled_render_layer_state(void) {
         case 4:
             oled_write_ln_P(PSTR("Adjust"), false);
             break;
-        case 5:
-            oled_write_ln_P(PSTR("Mac Base"), false);
-            break;
-        case 6:
-            oled_write_ln_P(PSTR("Mac Nav"), false);
-            break;
-        case 7:
-            oled_write_ln_P(PSTR("Mac Symbols"), false);
-            break;
-        case 8:
-            oled_write_ln_P(PSTR("Mac Adjust"), false);
-            break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);
             break;

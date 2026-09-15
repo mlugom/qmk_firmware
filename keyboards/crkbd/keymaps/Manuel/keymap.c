@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
             KC_LSFT,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                         KC_N,    KC_M, KC_COMM,  KC_DOT, KC_SLSH,         KC_LSFT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI, LT(1, KC_ESC),  KC_ENT,     KC_SPC,   MO(2), KC_RALT
+                                          KC_LGUI, LT(1, KC_ESC),  LT(3, KC_SPC),     KC_SPC,   LT(2, KC_ENT), KC_RALT
                                       //`--------------------------'  `--------------------------'
 
   ),
@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------------+--------------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_CAPS,       KC_QUOT,       KC_DQUO, KC_LBRC, KC_RBRC,  KC_GRV,                      XXXXXXX,  KC_DLR, KC_MINS, KC_PIPE, KC_AMPR, KC_BSLS,
   //|--------+--------------+--------------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, RALT(KC_QUES),    RALT(KC_1), KC_LCBR, KC_RCBR, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, KC_PPLS, XXXXXXX, XXXXXXX,
+      KC_LSFT, RALT(KC_QUES),    RALT(KC_1), KC_LCBR, KC_RCBR, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, KC_PPLS, XXXXXXX, KC_RSFT,
   //|--------+--------------+--------------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                                       KC_LALT,   MO(4),  KC_ENT,     KC_SPC, _______, KC_RALT
                                                   //`--------------------------'  `--------------------------'
